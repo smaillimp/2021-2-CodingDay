@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+header img {
+    margin: 1rem;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav, section.blog-section, section.ad-section {
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+li, article {
+    border: 1px solid grey;
+}
