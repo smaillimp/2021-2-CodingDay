@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+body {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    text-align: center;
+}
+label, input {
+    width: 45%;
+}
+
+fieldset {
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 768px){
+    body{
+      width: 100%;
+      max-width: 100%;
+    }
